@@ -1,0 +1,14 @@
+body {
+	/* overflow: hidden; */
+}
+#root {
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: #efefef;
+}
+.section-width {
+	width: 1000px;
+	margin: 0 auto;
+}

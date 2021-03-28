@@ -1,0 +1,38 @@
+
+.records-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+}
+.records-list__item {
+    width: 200px;
+    height: 300px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.records-list__item-image img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+.records-list__item-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.records-list__item-desc {
+    width: 153px;
+    max-height: 80px;
+    overflow-y: scroll;
+    margin-bottom: 5px;
+}
+.records-list__item-author {
+    font-style: italic;
+}
+.records-list__item-date {
+    font-size: 10px;
+}
